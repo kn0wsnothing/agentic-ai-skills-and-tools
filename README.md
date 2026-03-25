@@ -36,6 +36,7 @@ Keeping these layers separate is what makes the skills portable. The workflow do
 | Skill | Description | Status |
 |-------|-------------|--------|
 | [Memory Dream Cycle](skills/memory-dream-cycle/) | Nightly memory consolidation — resolve contradictions, prune stale content, compress working memory | ✅ Ready |
+| [Nightly Distillation](skills/nightly-distillation/) | Evening memory capture — review today's sessions, extract events, promote knowledge to the right tier | ✅ Ready |
 | Interstitial Journal | Timestamped brain-dump capture to episodic memory and daily notes | 🔜 Coming soon |
 
 ---
