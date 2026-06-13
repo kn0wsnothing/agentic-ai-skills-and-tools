@@ -79,7 +79,7 @@ The abstraction is important because the *rest* of the skill (episodic capture, 
 
 The strongest constraint in the skill: never infer, reconstruct, or embellish events. If it wasn't explicitly in the session, it doesn't go in the log.
 
-This seems obvious but it's a real failure mode. Models are good at pattern-matching and will confidently state things like "John had a meeting with Shea about the project" based on partial signals when no such meeting occurred. Once that's in episodic memory, it becomes a "fact" that future sessions reference.
+This seems obvious but it's a real failure mode. Models are good at pattern-matching and will confidently state things like "the user had a meeting with a teammate about the project" based on partial signals when no such meeting occurred. Once that's in episodic memory, it becomes a "fact" that future sessions reference.
 
 The constraint is absolute: no inference, no "probably," no filling in gaps. If you're not sure something happened, don't record it.
 

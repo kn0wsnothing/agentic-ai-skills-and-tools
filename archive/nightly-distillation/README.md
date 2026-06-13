@@ -87,7 +87,7 @@ The SKILL.md describes what to look for in abstract terms. The platform examples
 
 **Don't over-promote.** Not everything needs to be in semantic memory. The distillation should capture the *important* things — key decisions, people facts, process changes. Routine work belongs in episodic only.
 
-**Keep episodic entries concise.** One line per event. The episodic log is a reference, not a transcript. "Discussed migration plan with Mattia — decided on phased rollout" not a paragraph about what was discussed.
+**Keep episodic entries concise.** One line per event. The episodic log is a reference, not a transcript. "Discussed migration plan with a teammate — decided on phased rollout" not a paragraph about what was discussed.
 
 ---
 
