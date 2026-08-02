@@ -4,12 +4,13 @@ This repo is organized around the **WAT framework** — Workflows, Agents, Tools
 
 ## Agents — the roles, not the brands
 
-I run two agent roles, deliberately separated:
+I run three agent roles, deliberately separated:
 
-- **A thinking/prose agent.** Drafting, reviewing, planning, reflection, most day-to-day work. This is the one I'm in conversation with. The [`prompts/`](../prompts/) directory is mostly this layer: role/persona definitions you drop into whatever model you're driving — a thinking partner, an analysis architect, a prose editor, a coach.
+- **A thinking/specifying agent.** Drafting, reviewing, planning, reflection, and — increasingly — writing the spec that something else builds from. This is the one I'm in conversation with. The [`prompts/`](../prompts/) directory is mostly this layer: role/persona definitions you drop into whatever model you're driving — a thinking partner, an analysis architect, a prose editor, a coach.
+- **A building agent.** Added as a distinct role once the thinking agent's output started routinely being a spec rather than a deliverable. It is faster and more literal, and it is the wrong surface for open-ended design — hand it a settled spec and it executes well, hand it an ambiguous one and it produces something confident and shallow. The division that works: one thinks and specifies, the other builds.
 - **A data agent.** Analysis, data pulls, structured/numeric work. Kept separate from the prose agent for two reasons: focus (a data run and a drafting session want different headspaces) and governance (the data agent operates where the data lives, under whatever rules that data carries).
 
-The key move is that these are *roles*. My prose agent happens to be one product and my data agent another, but the system would survive swapping either. If you only have one model, you can still run both roles — just be explicit about which hat it's wearing.
+The key move is that these are *roles*. Each of mine happens to be a different product right now, but the system would survive swapping any of them. If you only have one model, you can still run all three roles — just be explicit about which hat it's wearing, because the failure mode is asking the builder to think.
 
 ## Tools — your platform's capabilities
 
@@ -23,9 +24,9 @@ Workflows are the [`skills/`](../skills/): structured procedures that say what h
 
 The skills cluster into a few families:
 
-- **Rhythm** — morning review, work-closure, day-closure, weekly review, monthly review. The cadence that keeps the system honest and current.
+- **Rhythm** — morning review, work-closure, day-closure, weekly review, monthly review, quarterly review. A ladder: each rung captures what the rung above it acts on, so the monthly surfaces gaps and the quarterly is what actually rewrites the goals.
 - **Memory** — breadcrumb (session wrap-up + memory routing). How a session's outcomes get written back so the next one isn't cold.
-- **Thinking & writing quality** — open-questions, prose-scrub, voice-development, the newsletter pipeline (outline → draft → package), process-notes.
+- **Thinking & writing quality** — salon, prose-scrub, voice-development, the newsletter pipeline (outline → draft → package), process-notes.
 - **Governance** — operating-audit, chief-of-staff-brief. The system looking at itself.
 
 ## The substrate — shared memory

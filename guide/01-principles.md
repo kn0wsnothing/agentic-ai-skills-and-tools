@@ -22,6 +22,12 @@ I assume every specific tool will be replaced. So the system is designed against
 
 The split that works: agents handle volume, recall, drafting, and structure; I keep the judgment, the taste, and the decisions. Several skills enforce this directly — they propose and wait, rather than write silently. The point of the system isn't to remove me from the loop. It's to spend my attention only where attention actually matters.
 
+## Under-specify on purpose
+
+The instinct when a skill misbehaves is to add a line telling it what to do instead. Do that enough times and the skill stops being a procedure and becomes a script that tells the model what to conclude before it has looked at anything. I audited every skill I run and cut around sixty-six of these — lines that pre-loaded a verdict, mandated a shape, or asked the model to distrust its own reading. Almost all of them had been added in good faith after a single bad output.
+
+The replacement rule is narrower than it sounds: say what to look at and what the gate is; do not say what will be found. And when a judgment step is misfiring, the fix is usually to remove the input that produced the bad judgment, not to add a caveat teaching the step to doubt itself. A caveat is a second layer of reasoning that has to be right about the first one, which is a harder problem than the original.
+
 ## A failure written down is worth more than a success
 
 Most of these skills carry a short record of how they broke before — the slug that should never be a number, the line that doubled a bullet, the gate that got skipped. Encoding hard-won failures into the workflow is how the system stops repeating them. That's the compounding: not just accumulated notes, but accumulated lessons.

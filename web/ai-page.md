@@ -8,9 +8,10 @@ It's all in one place: **[github.com/kn0wsnothing/agentic-ai-skills-and-tools](h
 
 Three roles and one substrate:
 
-- A **thinking/prose agent** I drive for writing, reviewing, and planning.
+- A **thinking/specifying agent** I drive for writing, reviewing, planning — and, increasingly, for writing the spec something else builds from.
+- A **building agent** that takes a settled spec and executes it. Fast and literal, and the wrong surface for open-ended design.
 - A **data agent** that owns analysis and structured work, kept separate on purpose.
-- A **shared, version-controlled memory** both of them read and write — plain text, so it's inspectable and it compounds.
+- A **shared, version-controlled memory** all of them read and write — plain text, so it's inspectable and it compounds.
 - **Skills** — structured, portable workflows — running on top: reviews, session wrap-ups, prose scrubs, a writing pipeline.
 
 I describe the whole thing in **roles, not products**. My particular tools are one instantiation; the patterns are the point, and they port to whatever you use. That's the bet: build the system around durable roles and a shared-memory contract, and swap tools underneath as they change.

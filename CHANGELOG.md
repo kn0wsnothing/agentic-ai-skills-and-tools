@@ -4,6 +4,17 @@ How this system has changed over time. Newest first. Each month is tagged `vYYYY
 
 This is the "what changed" half of the showcase — the [guide](guide/) is the current state, this is the diff.
 
+## v2026.07 — 2026-08-02
+
+**A third agent role, a principle about restraint, and an honest retirement.**
+
+- **Added [`salon`](skills/salon/)** — one conversational thinking session covering open questions, books, films, and ideas. It absorbed the narrower `open-questions` skill rather than sitting beside it.
+- **Retired `open-questions` to [`archive/`](archive/)** — the "only ship what I actually use" rule applied to my own back catalogue. Two similar-but-different skills side by side is a design smell.
+- **Added [`quarterly-review`](skills/quarterly-review/)** — completing the review ladder. The monthly captures goal gaps; the quarterly is the rung that actually rewrites the goals and the area charters, using three monthlies' accumulated evidence rather than one month's mood.
+- **New principle: [under-specify on purpose](guide/01-principles.md).** Audited every skill I run and cut around sixty-six forcing lines — instructions that told the model what to conclude instead of what to look at. Almost all had been added in good faith after one bad output. Also recorded the corollary: when a judgment step misfires, remove the input that misled it rather than adding a caveat that teaches it to distrust itself.
+- **The system is now three roles, not two** ([the system](guide/02-the-system.md)). A building agent joined the thinking/specifying agent and the data agent, once the thinking agent's output became routinely a spec rather than a deliverable. One thinks and specifies, the other builds; the handoff is deliberately manual.
+- **Recorded three structural changes in [what changed](guide/04-whats-changed.md):** reflexes that fire at the moment of use instead of instructions that have to be remembered; task state moved out of the notes into a store of its own, with the notes as a one-way projection; and the pre-publish prose scrub graduating from a skill into a standalone register-aware engine.
+
 ## v2026.06 — 2026-06-13
 
 **Relaunch as a living showcase of my current system.**

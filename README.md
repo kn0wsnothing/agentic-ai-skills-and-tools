@@ -56,6 +56,7 @@ Structured workflows I actually run. Each is portable to any agent with file acc
 | [day-closure](skills/day-closure/) | Short reflective end-of-day close with a forward signal |
 | [weekly-review](skills/weekly-review/) | Full GTD weekly review — get clear, get current, get creative |
 | [monthly-review](skills/monthly-review/) | Monthly reflective review — themes, goals-vs-actual, altitude check |
+| [quarterly-review](skills/quarterly-review/) | Quarterly review — area charters and goals rewritten from three monthlies' gap data |
 
 **Memory**
 
@@ -67,7 +68,7 @@ Structured workflows I actually run. Each is portable to any agent with file acc
 
 | Skill | What it does |
 |-------|--------------|
-| [open-questions](skills/open-questions/) | Deep single-question thinking-partner session (Socratic) |
+| [salon](skills/salon/) | One conversational thinking session — open questions, books, films, ideas |
 | [prose-scrub](skills/prose-scrub/) | Fresh-eyes scrub before publish — AI tells, reader card, clean rewrite |
 | [voice-development](skills/voice-development/) | Long-term writing-voice coaching — exercises plus a periodic check-in |
 | [process-notes](skills/process-notes/) | Develop fleeting notes into durable notes, one section at a time |
