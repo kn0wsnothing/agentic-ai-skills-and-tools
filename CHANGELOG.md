@@ -4,6 +4,14 @@ How this system has changed over time. Newest first. Each month is tagged `vYYYY
 
 This is the "what changed" half of the showcase — the [guide](guide/) is the current state, this is the diff.
 
+## v2026.09 — 2026-10-10
+
+**Review crosses the line, and four engines go public.** Covers August and September.
+
+- **Every handoff gets a challenger pass, and review crosses roles** ([the system](guide/02-the-system.md)). Before a spec reaches the builder, a challenger reads it and returns findings only, and the author can't waive it. Finished work is reviewed by a side that didn't write it. A finding blocks only when it breaks what the handoff promised; the rest become follow-ups.
+- **Four open engines** ([README](README.md#open-engines)): [prose-engine-open](https://github.com/kn0wsnothing/prose-engine-open), [information-diet-open](https://github.com/kn0wsnothing/information-diet-open), [gtd-engine-open](https://github.com/kn0wsnothing/gtd-engine-open) and [content-engine-open](https://github.com/kn0wsnothing/content-engine-open), published so anyone can run them with their own data.
+- **Adopted, not ported: a six-stage method for big builds** ([what changed](guide/04-whats-changed.md)). Goal, spec, evaluation, verification, environment, guardrails, adapted from [karpathy-method-SPEC](https://github.com/batsyxxx/karpathy-method-SPEC). The original has no licence, so it isn't copied here.
+
 ## v2026.07 — 2026-08-02
 
 **A third agent role, a principle about restraint, and an honest retirement.**

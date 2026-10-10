@@ -39,7 +39,20 @@ The **Tools** layer is your platform's (file read/write, shell, scheduling, MCP 
 
 ## The system
 
-The narrative companion to the catalog lives in [`guide/`](guide/) — how I run this in practice, the principles underneath it, one real workflow walked end to end, and what changed as the system evolved. It's described in **roles, not products**: a thinking/prose agent, a data agent, and a shared memory both read and write. My particular tools are just one instantiation; swap in yours.
+The narrative companion to the catalog lives in [`guide/`](guide/) — how I run this in practice, the principles underneath it, one real workflow walked end to end, and what changed as the system evolved. It's described in **roles, not products**: a thinking/specifying agent, a building agent, a data agent, and a shared memory they all read and write. My particular tools are just one instantiation; swap in yours.
+
+---
+
+## Open engines
+
+Four of the tools underneath the system have open versions you can install and run with your own data:
+
+| Engine | What it does |
+|--------|--------------|
+| [prose-engine-open](https://github.com/kn0wsnothing/prose-engine-open) | Deterministic writing checks with editable rule profiles and explainable findings |
+| [information-diet-open](https://github.com/kn0wsnothing/information-diet-open) | A local daily media planner for your own catalog, with durable progress and feedback |
+| [gtd-engine-open](https://github.com/kn0wsnothing/gtd-engine-open) | A local task system with capture, projects, dependencies, recovery and SQLite history |
+| [content-engine-open](https://github.com/kn0wsnothing/content-engine-open) | A local writing workflow engine with durable queues, review gates and a configurable AI runner |
 
 ---
 
